@@ -5,11 +5,11 @@
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int i;
 
-	for (i=o; i<  10; i++)
+	for (i = o; i <  10; i++)
 	{
 		putchar(i + 48);
 	}
