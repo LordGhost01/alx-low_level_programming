@@ -8,15 +8,10 @@
 int main(void)
 {
 	char c;
-	int i;
 
-	i = 0;
-	c = 'a';
-	while (i < 26)
-	{
-		putchar(c = i);
-		i++;
-	}
-	putchar(10);
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	
+	putchar('\n');
 	return (0);
 }
